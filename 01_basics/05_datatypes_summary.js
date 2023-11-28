@@ -45,3 +45,29 @@ console.log("hello");
 }
 
 //console.log(myperson());
+
+
+//Memory
+//1.Stack memory ->used in primitive data types
+//2.Heap Memory ->used in non prmitive data types
+
+
+
+let myMotherName="Rajdevi";
+let mymotheranotherName=myMotherName;
+console.log(mymotheranotherName);
+mymotheranotherName="Chai";
+console.log(myMotherName);
+console.log(mymotheranotherName);
+
+
+let user={
+email:"jayyadav0109@gmail.com",
+upi_id:'7900083629@ybl'
+
+}
+
+let user1={
+    email:"rupamaydav@gmail.com"
+}
+
