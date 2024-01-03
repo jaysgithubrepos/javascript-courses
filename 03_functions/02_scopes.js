@@ -1,0 +1,23 @@
+
+if (true){
+    let a=10;
+   const b=20;
+    var c=30;
+} 
+
+//console.log(a);
+//console.log(b);
+//console.log(c);
+
+function one(){
+    let username="jaichand";
+    function two(){
+        let website="genuinereporter";
+        console.log(username);
+       
+    }
+   // console.log(website);
+    two();
+}
+one();
+
